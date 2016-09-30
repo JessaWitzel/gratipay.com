@@ -255,7 +255,11 @@ def get_exchange_route(db, participant):
 def random_country_id(db):
     return db.one("SELECT id FROM countries ORDER BY random() LIMIT 1")
 
-
+def add_payday_to_payments(db, payday):
+    db.run("""UPDATE payments
+                 SET payday = %(payday)s
+               WHERE %(ts_start)s <= timestamp < %(ts_end)s
+           """)
 
 def prep_db(db):
     db.run("""
@@ -478,6 +482,12 @@ def populate_db(db, num_participants=100, ntips=200, num_teams=5, num_transfers=
             'volume': sum(x['amount'] for x in week_transfers)
         }
         insert_fake_data(db, "paydays", **payday)
+        payday_number = db.one("""SELECT currval('paydays_id_seq')""")
+        db.run("""UPDATE payments
+                     SET payday = %(payday)s
+                   WHERE %(ts_start)s <= timestamp 
+                     AND timestamp < %(ts_end)s
+               """, dict(payday=payday_number, ts_start=date, ts_end=end_date) )
         date = end_date
     print("")
 
