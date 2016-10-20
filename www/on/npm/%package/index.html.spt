@@ -1,0 +1,28 @@
+import requests
+
+from aspen import Response
+from gratipay.utils import markdown
+[---]
+package_name = request.path['package']
+r = requests.get('https://registry.npmjs.com/{}'.format(package_name))
+if r.status_code != 200:
+    raise Response(r.status_code)
+package = r.json()
+readme = markdown.render(package['readme'])
+banner = package_name
+page_id = "on-npm-foo"
+suppress_sidebar = True
+[---]
+{% extends "templates/base.html" %}
+
+{% block banner %}
+<a class="elsewhere" href="https://npmjs.com/package/{{ package['name'] }}">
+    <div class="avatar">
+        <img src="{{ website.asset('npm-wombat-typing.svg') }}" class="avatar">
+        <img class="platform" src="{{ website.asset('npm-n.png') }}" />
+    </div>
+    {{ super () }}
+</a>
+{% endblock %}
+
+{% block content %}{{ readme }}{% endblock %}

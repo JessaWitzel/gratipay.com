@@ -44,6 +44,7 @@ class TestPages(Harness):
                            .replace('/~/%username/', '/~alice/') \
                            .replace('/for/%slug/', '/for/wonderland/') \
                            .replace('/%platform/', '/github/') \
+                           .replace('/%package/', '/aspen/') \
                            .replace('/%user_name/', '/gratipay/') \
                            .replace('/%to', '/1') \
                            .replace('/%country', '/TT') \
