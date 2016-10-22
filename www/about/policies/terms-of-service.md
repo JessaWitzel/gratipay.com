@@ -41,11 +41,11 @@ these Terms.
      ("Work").
 
   1. A Participant may establish a Project on the Service. The Participant who
-     establishes a Project is the "Project Owner". Projects may optionally have
-other Participants as "Project Members."
+     establishes a Project is the Project Owner. Projects may optionally have
+other Participants as Project Members.
 
   1. A Participant may give money to a Project. A Participant who gives money
-     to a Project is a "Giver."
+     to a Project is a Giver.
 
 1.  Obligations of Project Owners
 
