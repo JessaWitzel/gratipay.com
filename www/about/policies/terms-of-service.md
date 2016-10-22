@@ -42,7 +42,7 @@ these Terms.
 
   1. A Participant may establish a Project on the Service. The Participant who
      establishes a Project is the Project Owner. Projects may optionally have
-other Participants as Project Members.
+other Participants as Collaborators.
 
   1. A Participant may give money to a Project. A Participant who gives money
      to a Project is a Giver.
@@ -55,7 +55,7 @@ the Service, you agree that payments will be used exclusively to support the
 Project Work described in your Project's profile.
 
   1. By accepting a payment from a Giver, the Project forms an agreement with
-     that Giver to perform the Project Work.  The Service is a platform to
+     that Giver to perform the Project Work. The Service is a platform to
 facilitate this agreement. Gratipay is not a party to the agreement, and is not
 responsible to either the Project or the Giver if either party breaches the
 terms of the agreement (e.g. if the Project fails to provide the promised
@@ -78,24 +78,24 @@ opportunity to publicly evaluate and provide commentary about the Project.
 However, all decisions regarding whether to accept, reject, suspend, remove, or
 take any other action regarding a Project belong solely to Gratipay.
 
-1.  Obligations of Project Members
+1.  Obligations of Collaborators
 
-  1. Projects can use the Service to distribute payments to Project Members.
+  1. Projects can use the Service to distribute payments to Collaborators.
 
-  1. When you become a Project Member, you agree that payments to you by the
+  1. When you become a Collaborator, you agree that payments to you by the
      Project are made exclusively because of your contribution ("Project
 Tasks") to the Project Work decribed in the Project's profile.
 
-  1. By accepting a payment from a Project, the Project Member forms an
-     agreement with that Project to contribute to the Project Work described in
-the Project's profile.  The Service is a platform to facilitate this agreement.
+  1. By accepting a payment from a Project, the Collaborator forms an agreement
+     with that Project to contribute to the Project Work described in the
+Project's profile.  The Service is a platform to facilitate this agreement.
 Gratipay is not a party to the agreement, and is not responsible to either the
-Project or the Project Member if either party breaches the terms of the
-agreement (e.g. if the Project Member fails to provide the promised services).
+Project or the Collaborator if either party breaches the terms of the agreement
+(e.g. if the Collaborator fails to provide the promised services).
 
   1. Gratipay does not determine how payments are allocated and is not
      responsible for how Projects internally distribute payments. The agreement
-between the Project's Owner and Project Members regarding the allocation of
+between the Project's Owner and Collaborators regarding the allocation of
 payments is solely between those parties.
 
 1.  Obligations of Givers
@@ -112,11 +112,11 @@ Projects will provide the work they promise.
 
 1. Fees and Taxes
 
-  1. Gratipay does not take any fee from payments made by Givers to
-     Projects, or by Projects to Project Members. Gratipay and the Service are funded
-through the Service itself, by voluntary payments from Givers
-who wish to fund our own Work. To contribute to Gratipay, please [visit
-Gratipay's Project page](/Gratipay/).
+  1. Gratipay does not take any fee from payments made by Givers to Projects,
+     or by Projects to Collaborators. Gratipay and the Service are funded
+through the Service itself, by voluntary payments from Givers who wish to fund
+our own Work. To contribute to Gratipay, please [visit Gratipay's Project
+page](/Gratipay/).
 
   1. You are responsible for paying any third-party fees associated with your
      use of the Service, such as credit card and bank fees.
@@ -124,12 +124,12 @@ Gratipay's Project page](/Gratipay/).
   1. You are responsible for paying any taxes and withholdings associated with
      your use of the Service. In particular, Project Owners, and not Gratipay,
 are responsible for compliance with all laws, as well as any taxes and
-withholding requirements, applicable to payments made to Project Members
-(whether through the Service or otherwise), including without limitation
-payroll tax, unemployment insurance, and worker compensation insurance
-payments. Project Owners are also responsible for providing any required tax
-and other documentation to employees, independent contractors, tax authorities,
-or any other person.
+withholding requirements, applicable to payments made to Collaborators (whether
+through the Service or otherwise), including without limitation payroll tax,
+unemployment insurance, and worker compensation insurance payments. Project
+Owners are also responsible for providing any required tax and other
+documentation to employees, independent contractors, tax authorities, or any
+other person.
 
 1. Content Accessible on the Service
 
